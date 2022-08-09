@@ -1,12 +1,10 @@
 import './App.css';
-import './myApp.css';
+import PaginaPrincipala from './Components/PaginaPrincipala';
 
 function App() {
   return (
     <div className="App">
-     <p>cand citesti un cuvant urat adauga bip
-     </p>
-    <p className="parteadejos">Ford focus ST</p>
+    <PaginaPrincipala/>
     </div>
   );
 }
